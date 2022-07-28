@@ -28,13 +28,23 @@ console.log(`My name is ${fullName} and I think ${luckyNumber} is a winner!`);
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
+const adventurous = true;
+
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
+
+const food = 'Pad Thai';
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
+const pets = 2;
+
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
+const friendsPets = 1;
+
 // 11 - Add two pets to your `pets` variable
+
+
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
