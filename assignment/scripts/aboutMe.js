@@ -40,7 +40,7 @@ let pets = 2;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
-const friendsPets = 1;
+const friendsPets = 4;
 
 // 11 - Add two pets to your `pets` variable
 
@@ -87,6 +87,19 @@ if (pets < allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+
+let mostPets = 0;
+
+if (pets < friendsPets) {
+    mostPets = `${friendsPets}`;
+    console.log(`Your friend has the most pets with ${mostPets} pets`);
+} else if (pets === friendsPets){
+    mostPets = pets;
+    console.log(`You and your friend both have ${mostPets} pets`);
+} else {
+    mostPets = pets;
+    console.log(`You have the most pets with ${mostPets} pets`);
+}
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
