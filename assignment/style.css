@@ -1,0 +1,16 @@
+body {
+    background-color: #403233;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #f19a3e, #403233);
+    color: #abedc6;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+p {
+    color: #98d9c2;
+}
