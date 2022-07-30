@@ -40,7 +40,7 @@ let pets = 2;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
-const friendsPets = 4;
+const friendsPets = 1;
 
 // 11 - Add two pets to your `pets` variable
 
@@ -91,7 +91,7 @@ if (pets < allowedPets) {
 let mostPets = 0;
 
 if (pets < friendsPets) {
-    mostPets = `${friendsPets}`;
+    mostPets = friendsPets;
     console.log(`Your friend has the most pets with ${mostPets} pets`);
 } else if (pets === friendsPets){
     mostPets = pets;
@@ -108,6 +108,21 @@ if (pets < friendsPets) {
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
+switch (luckyNumber) {
+    case 1:
+        console.log('First is the worst');
+        break;
+    case 2:
+        console.log('Second is the best');
+        break;
+    case 3:
+        console.log('Third is the one with the polka dot dress');
+        break;
+    default:
+        console.log('Luck is what happens when preparation meets opportunity');
+}
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+let aTernary = (adventurous) ? 'Adventures are great!':'How about we stay home?';
+console.log(aTernary);
