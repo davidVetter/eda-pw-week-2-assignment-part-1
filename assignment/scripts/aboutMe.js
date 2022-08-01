@@ -17,8 +17,8 @@ const fullName = `${firstName} ${lastName}`;
 console.log(`${fullName}`);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-
-const luckyNumber = 7;
+//luckyNumber is a random number 0-10
+const luckyNumber = Math.floor(Math.random() * 11);
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
@@ -28,7 +28,13 @@ console.log(`My name is ${fullName} and I think ${luckyNumber} is a winner!`);
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
-const adventurous = true;
+let tf = Math.floor(Math.random() * 2);
+let adventurous = true;
+
+if (tf === 0) {
+    adventurous = false;
+}
+
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 
@@ -36,19 +42,19 @@ const food = 'Pad Thai';
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
-let pets = 2;
+let pets = Math.floor(Math.random() * 6);
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
-const friendsPets = 1;
+let friendsPets = Math.floor(Math.random() * 6);
 
 // 11 - Add two pets to your `pets` variable
 
-pets += 2;
+pets += Math.floor(Math.random() * 3);
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
-const allowedPets = 5;
+const allowedPets = Math.floor(Math.random() * 8);
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
